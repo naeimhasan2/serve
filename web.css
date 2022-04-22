@@ -1,0 +1,305 @@
+body {
+    font-family: segoe uI;
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+
+}
+
+.header-area {
+    background-color: #23232e;
+    text-align: center;
+    color: #ffffff;
+    padding: 40px;
+
+}
+
+.logo-area img {
+    width: 70px;
+    height: auto;
+    margin-bottom: 40px;
+
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.header-area p {
+    font-size: 12px;
+
+}
+
+.next-section {
+    margin-top: 80px;
+}
+
+.next-section a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.next-section a i {
+    border: 1px solid #ffffff;
+    font-size: 12px;
+    width: 12px;
+    height: 12px;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+/*** about area ***/
+
+.about {
+    color: #464b4f;
+
+}
+
+.content p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 40px;
+    
+
+}
+
+.about-us {
+    overflow: hidden;
+
+}
+
+.col-1-3 {
+    width: 31.33%;
+    float: left;
+    overflow: hidden;
+    margin: 0 1%;
+    margin-bottom: 40px;
+
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 12px;
+   
+}
+
+.col-1-3 p {
+    font-size: 10px;
+    color:#23232e;
+
+}
+
+.col-1-3 img {
+    width: 100%;
+    margin: auto;
+}
+
+.col-1-3 a {
+    font-size: 12px;
+  
+}
+
+
+/*** portfolio area ***/
+
+
+.portfolio {
+    background-color: #23232e;
+    color: #ffffff;
+    padding: 40px ;
+    overflow: hidden;
+
+}
+    
+.work-category {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.work-category ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+
+}
+
+.work-category ul li {
+    display: inline;
+    margin: 0 8px;
+
+}
+
+.work-category ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    padding: 3px 0;
+    font-size: 10px;
+
+}
+
+.work-category ul li a:hover {
+    border-bottom: 2px solid #7b77c9;
+}
+
+.work-category ul .current a  {
+    border-bottom: 2px solid #7b77c9;
+}
+
+.work-columns {
+    text-align: center;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.work-columns a {
+    color: #ffffff;
+    text-decoration:none ;
+    font-weight: normal;
+    font-size: 12px;
+ 
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 40px 0;
+}
+
+.button a {
+    color: #ffffff;
+    text-decoration: none;
+    background: #7b77c9;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    
+    
+}
+
+
+
+
+/*** photography ***/
+
+.photography {
+    color: #464b4f;
+}
+.photography p {
+    text-align: center;
+    margin-bottom:  30px;
+    overflow: hidden;
+
+}
+
+
+
+/*** subscribe area ***/
+
+
+.subscribe {
+    background-color: #23232e;
+    text-align: center;
+    padding: 120px 0;
+    text-decoration: none;
+
+}
+
+.infinite {
+
+
+}
+
+.infinite img {
+    height: 30px;
+    margin: auto;
+    margin-bottom:20px;
+
+}
+
+.subscribe p {
+    color: #ffffff;
+    font-size: 12px;
+}
+   
+
+
+
+.subscribe form input {
+    color: #666666;
+    font-size: 15px;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    border: none;
+    font-family: segoe uI;
+    margin-top: 20px;
+
+
+}
+
+.subscribe input[type="text"] {
+    margin-right:10px ;
+
+}
+
+.subscribe input[type="submit"] {
+    background: #7b77c9;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/*** footer area ***/
+
+.footer-area {
+    padding: 50px 0;
+    background-image: url('images/background.png');
+    background-size: cover;
+   
+
+}
+
+.social-profiles {
+    color: #666666;
+
+
+}
+
+.social-profiles ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+.social-profiles ul li {
+    display: inline;
+    margin: 0 10px;
+
+}
+
+.social-profiles ul li a {
+    color: #666666;
+
+}
+
+.copyright {
+    text-align: center;
+    color: #cccccc;
+    margin-top: 40px;
+
+}
+
+.copyright p {
+    font-size: 12px;
+
+}
